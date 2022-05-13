@@ -48,6 +48,7 @@ GameObject:
   - component: {fileID: -2258545312088600136}
   - component: {fileID: 7220325116876938917}
   - component: {fileID: -4840772991418189428}
+  - component: {fileID: 2066774779980639285}
   m_Layer: 0
   m_Name: Survivor
   m_TagString: Player
@@ -107,7 +108,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
+  m_SortingLayerID: 1192661933
   m_SortingLayer: 0
   m_SortingOrder: 10
   m_Sprite: {fileID: 21300000, guid: bd5352d1767bcaf4b8741887e3cbc1f4, type: 3}
@@ -154,7 +155,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d1f97f0e427c0434e92d4f45a1f47510, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 5
+  moveSpeed: 3
   rb: {fileID: 299824569424980236}
   cam: {fileID: 4107406058208109944, guid: 283782b590fbd5d49819710fbe60f70f, type: 3}
   firePoint: {fileID: 299824568554339027}
@@ -372,3 +373,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.0060289, y: 1.7782998}
   m_EdgeRadius: 0
+--- !u!114 &2066774779980639285
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 299824569424980238}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1abac16be7f5007499ee9daa52f07cf8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  saludInicial: 100
+  saludMax: 100
+  jugador: {fileID: 299824569424980238}

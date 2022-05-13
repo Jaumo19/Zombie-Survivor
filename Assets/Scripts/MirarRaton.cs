@@ -1,5 +1,6 @@
 using System.Collections;
 using UnityEngine;
+using Photon.Pun;
 
 
 /* Danndx 2017 (youtube.com/danndx)
@@ -9,9 +10,19 @@ thanks - delete me! :) */
 
 public class MirarRaton : MonoBehaviour
 {
+    
+    PhotonView view;
+
+    void Start()
+    {
+        view = GetComponent<PhotonView>();
+    }
     void Update()
     {
-        faceMouse();
+        if (view.IsMine)
+        {
+            faceMouse();
+        }
     }
 
     void faceMouse()
