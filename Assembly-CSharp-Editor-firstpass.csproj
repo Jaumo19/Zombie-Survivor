@@ -779,6 +779,10 @@
       <Project>{361fd930-a21a-1275-ad3e-153aafcd31e5}</Project>
       <Name>PhotonChat</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.2D.Tilemap.Extras.csproj">
+      <Project>{3383e8d5-7330-afd7-5cb8-69049501f539}</Project>
+      <Name>Unity.2D.Tilemap.Extras</Name>
+    </ProjectReference>
     <ProjectReference Include="PhotonUnityNetworking.Editor.csproj">
       <Project>{8a3f82d6-19d0-37c3-6753-dd211bdd9150}</Project>
       <Name>PhotonUnityNetworking.Editor</Name>
@@ -798,6 +802,10 @@
     <ProjectReference Include="PhotonUnityNetworking.Utilities.csproj">
       <Project>{0859bb4c-5520-62c3-98e3-c11e8de260d7}</Project>
       <Name>PhotonUnityNetworking.Utilities</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.2D.Tilemap.Extras.Editor.csproj">
+      <Project>{e02f88e5-0e04-dec8-dffd-ea5ff4cb8b45}</Project>
+      <Name>Unity.2D.Tilemap.Extras.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="PhotonUnityNetworking.csproj">
       <Project>{9e114a59-9dce-b287-7607-be9330e26cee}</Project>
