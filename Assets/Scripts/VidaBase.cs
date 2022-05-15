@@ -4,9 +4,20 @@ using UnityEngine;
 
 public class VidaBase : MonoBehaviour
 {
+    
+    
+    public static VidaBase Instance;
+    
+    
     [SerializeField] protected float saludInicial;
     [SerializeField] protected float saludMax;
+    
 
+    
+    private void Awake()
+    {
+        Instance = this;
+    }
     public float Salud { get; protected set; }
     // Start is called before the first frame update
     protected virtual void  Start()

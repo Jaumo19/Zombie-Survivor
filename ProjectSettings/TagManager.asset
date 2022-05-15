@@ -13,6 +13,7 @@ TagManager:
   - dead
   - Avatar
   - Bala
+  - Enemigo
   layers:
   - Default
   - TransparentFX
@@ -49,4 +50,13 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Tile
+    uniqueID: 2278359815
+    locked: 0
+  - name: Decoracion
+    uniqueID: 3624934583
+    locked: 0
+  - name: Jugador_Enemigo
+    uniqueID: 3743253171
     locked: 0

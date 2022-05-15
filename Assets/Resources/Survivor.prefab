@@ -49,6 +49,7 @@ GameObject:
   - component: {fileID: 7220325116876938917}
   - component: {fileID: -4840772991418189428}
   - component: {fileID: 2066774779980639285}
+  - component: {fileID: -709183066709820854}
   m_Layer: 0
   m_Name: Survivor
   m_TagString: Player
@@ -108,8 +109,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1192661933
-  m_SortingLayer: 0
+  m_SortingLayerID: -551714125
+  m_SortingLayer: 3
   m_SortingOrder: 10
   m_Sprite: {fileID: 21300000, guid: bd5352d1767bcaf4b8741887e3cbc1f4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -162,7 +163,7 @@ MonoBehaviour:
   bulletPrefab: {fileID: 6537416128878462696, guid: 2207c9175a8bcc8408cea050438f9514,
     type: 3}
   bulletForce: 50
-  fireRate: 0.5
+  fireRate: 0.2
 --- !u!95 &299824569424980227
 Animator:
   serializedVersion: 3
@@ -360,7 +361,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.23559156, y: -0.15105963}
+  m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -371,7 +372,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.0060289, y: 1.7782998}
+  m_Size: {x: 1.6790997, y: 1.9689502}
   m_EdgeRadius: 0
 --- !u!114 &2066774779980639285
 MonoBehaviour:
@@ -388,3 +389,15 @@ MonoBehaviour:
   saludInicial: 100
   saludMax: 100
   jugador: {fileID: 299824569424980238}
+--- !u!114 &-709183066709820854
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 299824569424980238}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 570a4b2552cffc84cbc8f5555556eed3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

@@ -13,9 +13,11 @@ public class UIManager : MonoBehaviour
     [Header("Config")]
     [SerializeField] private Image vidaPlayer;
     [SerializeField] private TextMeshProUGUI vidaTMP;
+    [SerializeField] private TextMeshProUGUI puntos;
 
     private float vidaActual;
     private float vidaMax;
+    private int puntuacion = 0;
 
     private void Awake()
     {
@@ -24,7 +26,7 @@ public class UIManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        puntos.text = puntuacion.ToString();
     }
 
     // Update is called once per frame
@@ -44,5 +46,11 @@ public class UIManager : MonoBehaviour
     {
         vidaActual = pVidaActual;
         vidaMax = pVidaMax;
+    }
+
+    public void AñadirPuntos()
+    {
+        puntuacion += 100;
+        puntos.text = puntuacion.ToString();
     }
 }
