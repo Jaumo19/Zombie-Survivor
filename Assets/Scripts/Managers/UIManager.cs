@@ -23,14 +23,20 @@ public class UIManager : MonoBehaviour
     private float vidaActual;
     private float vidaMax;
     private int puntuacion = 0;
+    public GameObject puerta;
+    public GameObject spawnsNivel1;
+    private bool puerta1 = false;
+    public GameObject llaveNivel1;
 
     private void Awake()
     {
         Instance = this;
+
     }
     // Start is called before the first frame update
     void Start()
     {
+        llaveNivel1.SetActive(false);
         mensaje_muerto.enabled = false;
         puntos.text = puntuacion.ToString();
 
@@ -62,6 +68,16 @@ public class UIManager : MonoBehaviour
     {
         puntuacion += 100;
         puntos.text = puntuacion.ToString();
+        if (puerta1 == false)
+        {
+            if (puntuacion >= 10000)
+            {
+                llaveNivel1.SetActive(true);
+                /*puerta.SetActive(false);
+                Destroy(spawnsNivel1);*/
+                puerta1 = true;
+            }
+        }
     }
     public void GameOver()
     {
