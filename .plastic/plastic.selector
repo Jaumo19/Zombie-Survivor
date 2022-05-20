@@ -1,4 +1,0 @@
-repository "Zombie Survival@Zombie_Survivor@cloud"
-  path "/"
-    br "/main"
-    co "/main"

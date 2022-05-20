@@ -1,6 +1,9 @@
 using System;
 using UnityEngine;
 using Photon.Pun;
+using UnityEngine.UI;
+using TMPro;
+
 public class PersonajeVida : VidaBase
 {
     public GameObject jugador;
@@ -11,17 +14,6 @@ public class PersonajeVida : VidaBase
     {
         base.Start();
         ActualizarBarraVida(Salud, saludMax);
-    }
-
-    private void Update() {
-        
-        if (Input.GetKeyDown(KeyCode.T)){
-            recibirDaño(10);
-        }
-
-        if (Input.GetKeyDown(KeyCode.R)){
-            restaurarSalud(10);
-        }
     }
 
     public void restaurarSalud(float cantidad){
@@ -36,10 +28,20 @@ public class PersonajeVida : VidaBase
 
     protected override void PersonajeDerrotado()
     {
-        PhotonNetwork.Destroy(jugador);
-     
-        
-    }
+        if (view.IsMine)
+            Debug.Log("Ha muerto");
+        {
+            if (jugador != null)
+                Debug.Log("Ha muerto");
+            {
+                PhotonNetwork.Disconnect();
+            }
+            //UIManager.Instance.GameOver();
+            UIManager.Instance.GameOver();
+        }
+
+
+        }
     protected override void ActualizarBarraVida(float vidaActual, float vidaMax)
     {
         UIManager.Instance.ActualizarVidaPersonaje(vidaActual, vidaMax);

@@ -8,6 +8,7 @@ public class Enemigo : MonoBehaviour
 {
     public float speed;
     private Rigidbody2D rb;
+    public float stoppingDistance;
 
     private Transform target;
     private PhotonView view;
@@ -34,6 +35,7 @@ public class Enemigo : MonoBehaviour
             Vector3 direction = target.position - transform.position;
             float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
             rb.rotation = angle;
+            
         }
         else
         {

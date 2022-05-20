@@ -64,7 +64,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 299824569424980238}
-  m_LocalRotation: {x: -0, y: -0, z: 0.70089227, w: 0.7132672}
+  m_LocalRotation: {x: 0, y: 0, z: 0.70089066, w: 0.71326876}
   m_LocalPosition: {x: -2.7901, y: 0.1761, z: 0}
   m_LocalScale: {x: 0.6464, y: 0.6964, z: 1}
   m_Children:
@@ -388,6 +388,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   saludInicial: 100
   saludMax: 100
+  view: {fileID: 0}
   jugador: {fileID: 299824569424980238}
 --- !u!114 &-709183066709820854
 MonoBehaviour:

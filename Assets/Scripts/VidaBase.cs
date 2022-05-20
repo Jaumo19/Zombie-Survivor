@@ -1,19 +1,21 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Photon.Pun;
 
 public class VidaBase : MonoBehaviour
 {
     
     
     public static VidaBase Instance;
-    
-    
+
+
     [SerializeField] protected float saludInicial;
     [SerializeField] protected float saludMax;
-    
+    public PhotonView view;
 
-    
+
+
     private void Awake()
     {
         Instance = this;
@@ -23,6 +25,7 @@ public class VidaBase : MonoBehaviour
     protected virtual void  Start()
     {
         Salud = saludInicial;
+        view = GetComponent<PhotonView>();
     }
     public void recibirDaño(float cantidad){
         if (cantidad <= 0){
@@ -34,6 +37,8 @@ public class VidaBase : MonoBehaviour
             if (Salud <= 0f){
                 ActualizarBarraVida(Salud, saludMax);
                 PersonajeDerrotado();
+                //PersonajeVida.Instance.view.RPC("PersonajeDerrotado", RpcTarget.AllViaServer);
+
             }
         }
     }
