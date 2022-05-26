@@ -75,6 +75,7 @@
      <Compile Include="Assets\Scripts\PersonajeVida.cs" />
      <Compile Include="Assets\Bullet\Scripts\scrollingOffset.cs" />
      <Compile Include="Assets\Bullet\Scripts\BulletControl.cs" />
+     <Compile Include="Assets\Scripts\Llave.cs" />
      <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\FriendItem.cs" />
      <Compile Include="Assets\FREE Footsteps System\scripts\CharacterFootsteps.cs" />
      <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\ChatGui.cs" />
