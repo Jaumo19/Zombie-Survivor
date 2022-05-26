@@ -29,6 +29,7 @@ public class PersonajeVida : VidaBase
     protected override void PersonajeDerrotado()
     {
         if (view.IsMine)
+            Debug.Log(PhotonNetwork.NickName);
             Debug.Log("Ha muerto");
         {
             if (jugador != null)

@@ -13,120 +13,534 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2022-05-26T13:09:27.191+02:00
-  initializedAtString: 2022-05-26T11:25:07.868+02:00
+  lastUpdatedAtString: 2022-05-26T21:24:22.731+02:00
+  initializedAtString: 2022-05-26T21:23:09.614+02:00
   entries:
+  - path: .idea\.idea.Zombie\.idea\projectSettingsUpdater.xml
+    fullPath: C:\Users\jaume\Desktop\Zombie-Survivor\.idea\.idea.Zombie\.idea\projectSettingsUpdater.xml
+    projectPath: .idea\.idea.Zombie\.idea\projectSettingsUpdater.xml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: .idea\.idea.Zombie\.idea\workspace.xml
+    fullPath: C:\Users\jaume\Desktop\Zombie-Survivor\.idea\.idea.Zombie\.idea\workspace.xml
+    projectPath: .idea\.idea.Zombie\.idea\workspace.xml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: .idea\.idea.Zombie-Survivor\.idea\.gitignore
+    fullPath: C:\Users\jaume\Desktop\Zombie-Survivor\.idea\.idea.Zombie-Survivor\.idea\.gitignore
+    projectPath: .idea\.idea.Zombie-Survivor\.idea\.gitignore
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: .idea\.idea.Zombie-Survivor\.idea\encodings.xml
+    fullPath: C:\Users\jaume\Desktop\Zombie-Survivor\.idea\.idea.Zombie-Survivor\.idea\encodings.xml
+    projectPath: .idea\.idea.Zombie-Survivor\.idea\encodings.xml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: .idea\.idea.Zombie-Survivor\.idea\indexLayout.xml
+    fullPath: C:\Users\jaume\Desktop\Zombie-Survivor\.idea\.idea.Zombie-Survivor\.idea\indexLayout.xml
+    projectPath: .idea\.idea.Zombie-Survivor\.idea\indexLayout.xml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: .idea\.idea.Zombie-Survivor\.idea\vcs.xml
+    fullPath: C:\Users\jaume\Desktop\Zombie-Survivor\.idea\.idea.Zombie-Survivor\.idea\vcs.xml
+    projectPath: .idea\.idea.Zombie-Survivor\.idea\vcs.xml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Assembly-CSharp.csproj
-    fullPath: C:\Users\krute\Desktop\Juego_Unity\Assembly-CSharp.csproj
+    fullPath: C:\Users\jaume\Desktop\Zombie-Survivor\Assembly-CSharp.csproj
     projectPath: Assembly-CSharp.csproj
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Assets\Imagenes\ZS.jpeg
-    fullPath: C:\Users\krute\Desktop\Juego_Unity\Assets\Imagenes\ZS.jpeg
-    projectPath: Assets\Imagenes\ZS.jpeg
+  - path: Assembly-CSharp-Editor.csproj
+    fullPath: C:\Users\jaume\Desktop\Zombie-Survivor\Assembly-CSharp-Editor.csproj
+    projectPath: Assembly-CSharp-Editor.csproj
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Imagenes\ZS.jpeg.meta
-    fullPath: C:\Users\krute\Desktop\Juego_Unity\Assets\Imagenes\ZS.jpeg.meta
-    projectPath: Assets\Imagenes\ZS.jpeg.meta
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assembly-CSharp-Editor-firstpass.csproj
+    fullPath: C:\Users\jaume\Desktop\Zombie-Survivor\Assembly-CSharp-Editor-firstpass.csproj
+    projectPath: Assembly-CSharp-Editor-firstpass.csproj
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Scenes\Login.unity
-    fullPath: C:\Users\krute\Desktop\Juego_Unity\Assets\Scenes\Login.unity
-    projectPath: Assets\Scenes\Login.unity
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Photon\PhotonUnityNetworking\Resources\PhotonServerSettings.asset
+    fullPath: C:\Users\jaume\Desktop\Zombie-Survivor\Assets\Photon\PhotonUnityNetworking\Resources\PhotonServerSettings.asset
+    projectPath: Assets\Photon\PhotonUnityNetworking\Resources\PhotonServerSettings.asset
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Scenes\Login.unity.meta
-    fullPath: C:\Users\krute\Desktop\Juego_Unity\Assets\Scenes\Login.unity.meta
-    projectPath: Assets\Scenes\Login.unity.meta
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Resources\Survivor.prefab
+    fullPath: C:\Users\jaume\Desktop\Zombie-Survivor\Assets\Resources\Survivor.prefab
+    projectPath: Assets\Resources\Survivor.prefab
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Resources\Zombie.prefab
+    fullPath: C:\Users\jaume\Desktop\Zombie-Survivor\Assets\Resources\Zombie.prefab
+    projectPath: Assets\Resources\Zombie.prefab
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Scenes\SampleScene.unity
+    fullPath: C:\Users\jaume\Desktop\Zombie-Survivor\Assets\Scenes\SampleScene.unity
+    projectPath: Assets\Scenes\SampleScene.unity
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: "Assets\\Scripts\\DetectarDa\xF1o.cs"
+    fullPath: "C:\\Users\\jaume\\Desktop\\Zombie-Survivor\\Assets\\Scripts\\DetectarDa\xF1o.cs"
+    projectPath: "Assets\\Scripts\\DetectarDa\xF1o.cs"
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Scripts\Enemigo.cs
+    fullPath: C:\Users\jaume\Desktop\Zombie-Survivor\Assets\Scripts\Enemigo.cs
+    projectPath: Assets\Scripts\Enemigo.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Assets\Scripts\Login.cs
-    fullPath: C:\Users\krute\Desktop\Juego_Unity\Assets\Scripts\Login.cs
+    fullPath: C:\Users\jaume\Desktop\Zombie-Survivor\Assets\Scripts\Login.cs
     projectPath: Assets\Scripts\Login.cs
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Scripts\Login.cs.meta
-    fullPath: C:\Users\krute\Desktop\Juego_Unity\Assets\Scripts\Login.cs.meta
-    projectPath: Assets\Scripts\Login.cs.meta
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Scripts\Managers\UIManager.cs
+    fullPath: C:\Users\jaume\Desktop\Zombie-Survivor\Assets\Scripts\Managers\UIManager.cs
+    projectPath: Assets\Scripts\Managers\UIManager.cs
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Scripts\MirarRaton.cs
+    fullPath: C:\Users\jaume\Desktop\Zombie-Survivor\Assets\Scripts\MirarRaton.cs
+    projectPath: Assets\Scripts\MirarRaton.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Scripts\PersonajeVida.cs
+    fullPath: C:\Users\jaume\Desktop\Zombie-Survivor\Assets\Scripts\PersonajeVida.cs
+    projectPath: Assets\Scripts\PersonajeVida.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Assets\Scripts\SpawnEnemy.cs
-    fullPath: C:\Users\krute\Desktop\Juego_Unity\Assets\Scripts\SpawnEnemy.cs
+    fullPath: C:\Users\jaume\Desktop\Zombie-Survivor\Assets\Scripts\SpawnEnemy.cs
     projectPath: Assets\Scripts\SpawnEnemy.cs
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: Library\APIUpdater\project-dependencies.graph
+    fullPath: C:\Users\jaume\Desktop\Zombie-Survivor\Library\APIUpdater\project-dependencies.graph
+    projectPath: Library\APIUpdater\project-dependencies.graph
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Artifacts\07\0740e00476bf1e5c91d9f4b71b34de14
+    fullPath: C:\Users\jaume\Desktop\Zombie-Survivor\Library\Artifacts\07\0740e00476bf1e5c91d9f4b71b34de14
+    projectPath: Library\Artifacts\07\0740e00476bf1e5c91d9f4b71b34de14
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\08\08b071ad92ad5d3c22822792e4b5cfa6
+    fullPath: C:\Users\jaume\Desktop\Zombie-Survivor\Library\Artifacts\08\08b071ad92ad5d3c22822792e4b5cfa6
+    projectPath: Library\Artifacts\08\08b071ad92ad5d3c22822792e4b5cfa6
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\09\093025cd914f91c81c1377532e891505
+    fullPath: C:\Users\jaume\Desktop\Zombie-Survivor\Library\Artifacts\09\093025cd914f91c81c1377532e891505
+    projectPath: Library\Artifacts\09\093025cd914f91c81c1377532e891505
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\0b\0b10a753a08d1492bb90fcf8b9192f63
+    fullPath: C:\Users\jaume\Desktop\Zombie-Survivor\Library\Artifacts\0b\0b10a753a08d1492bb90fcf8b9192f63
+    projectPath: Library\Artifacts\0b\0b10a753a08d1492bb90fcf8b9192f63
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\0c\0c678a3038844dcda7a353a0f60d226b
+    fullPath: C:\Users\jaume\Desktop\Zombie-Survivor\Library\Artifacts\0c\0c678a3038844dcda7a353a0f60d226b
+    projectPath: Library\Artifacts\0c\0c678a3038844dcda7a353a0f60d226b
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\12\122823a22ccd67468137c14bdcc0b914
+    fullPath: C:\Users\jaume\Desktop\Zombie-Survivor\Library\Artifacts\12\122823a22ccd67468137c14bdcc0b914
+    projectPath: Library\Artifacts\12\122823a22ccd67468137c14bdcc0b914
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\1a\1ade314d8774c2843182e10c7d3b17bf
+    fullPath: C:\Users\jaume\Desktop\Zombie-Survivor\Library\Artifacts\1a\1ade314d8774c2843182e10c7d3b17bf
+    projectPath: Library\Artifacts\1a\1ade314d8774c2843182e10c7d3b17bf
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\1b\1b0c997d725fbabcd6fea69e828abc1c
+    fullPath: C:\Users\jaume\Desktop\Zombie-Survivor\Library\Artifacts\1b\1b0c997d725fbabcd6fea69e828abc1c
+    projectPath: Library\Artifacts\1b\1b0c997d725fbabcd6fea69e828abc1c
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\1b\1b87ec0f45c1b70a30fdcba95e21c267
+    fullPath: C:\Users\jaume\Desktop\Zombie-Survivor\Library\Artifacts\1b\1b87ec0f45c1b70a30fdcba95e21c267
+    projectPath: Library\Artifacts\1b\1b87ec0f45c1b70a30fdcba95e21c267
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\27\2714d7f823a8fe592382fa15e56ec401
+    fullPath: C:\Users\jaume\Desktop\Zombie-Survivor\Library\Artifacts\27\2714d7f823a8fe592382fa15e56ec401
+    projectPath: Library\Artifacts\27\2714d7f823a8fe592382fa15e56ec401
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\2b\2b0dba067bbf7845ff6f232a6d4aef8b
+    fullPath: C:\Users\jaume\Desktop\Zombie-Survivor\Library\Artifacts\2b\2b0dba067bbf7845ff6f232a6d4aef8b
+    projectPath: Library\Artifacts\2b\2b0dba067bbf7845ff6f232a6d4aef8b
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\2f\2fcfa252f1764e18f7e4faf0a4199ea9
+    fullPath: C:\Users\jaume\Desktop\Zombie-Survivor\Library\Artifacts\2f\2fcfa252f1764e18f7e4faf0a4199ea9
+    projectPath: Library\Artifacts\2f\2fcfa252f1764e18f7e4faf0a4199ea9
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\32\321da48a17b1eb4109c11c96c547e6e5
+    fullPath: C:\Users\jaume\Desktop\Zombie-Survivor\Library\Artifacts\32\321da48a17b1eb4109c11c96c547e6e5
+    projectPath: Library\Artifacts\32\321da48a17b1eb4109c11c96c547e6e5
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\32\32dfae7dc39f862e973ac9c71c89bf0d
+    fullPath: C:\Users\jaume\Desktop\Zombie-Survivor\Library\Artifacts\32\32dfae7dc39f862e973ac9c71c89bf0d
+    projectPath: Library\Artifacts\32\32dfae7dc39f862e973ac9c71c89bf0d
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\35\354adddeeab929f86207e63bd6109b4a
+    fullPath: C:\Users\jaume\Desktop\Zombie-Survivor\Library\Artifacts\35\354adddeeab929f86207e63bd6109b4a
+    projectPath: Library\Artifacts\35\354adddeeab929f86207e63bd6109b4a
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\39\3949c9e1e3b2f64728f08b873698ed34
+    fullPath: C:\Users\jaume\Desktop\Zombie-Survivor\Library\Artifacts\39\3949c9e1e3b2f64728f08b873698ed34
+    projectPath: Library\Artifacts\39\3949c9e1e3b2f64728f08b873698ed34
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\3a\3accf38a81316fdf04aff16947fa3da6
+    fullPath: C:\Users\jaume\Desktop\Zombie-Survivor\Library\Artifacts\3a\3accf38a81316fdf04aff16947fa3da6
+    projectPath: Library\Artifacts\3a\3accf38a81316fdf04aff16947fa3da6
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\3e\3e787a2da3ac8de6e73d73949d6690ad
+    fullPath: C:\Users\jaume\Desktop\Zombie-Survivor\Library\Artifacts\3e\3e787a2da3ac8de6e73d73949d6690ad
+    projectPath: Library\Artifacts\3e\3e787a2da3ac8de6e73d73949d6690ad
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\45\450b55a8e16c40f65ab3f1e974d1605a
+    fullPath: C:\Users\jaume\Desktop\Zombie-Survivor\Library\Artifacts\45\450b55a8e16c40f65ab3f1e974d1605a
+    projectPath: Library\Artifacts\45\450b55a8e16c40f65ab3f1e974d1605a
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\45\456232bf12c5146e5527898063e22314
+    fullPath: C:\Users\jaume\Desktop\Zombie-Survivor\Library\Artifacts\45\456232bf12c5146e5527898063e22314
+    projectPath: Library\Artifacts\45\456232bf12c5146e5527898063e22314
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\48\4804c6dd26479046940551aecf6c506c
+    fullPath: C:\Users\jaume\Desktop\Zombie-Survivor\Library\Artifacts\48\4804c6dd26479046940551aecf6c506c
+    projectPath: Library\Artifacts\48\4804c6dd26479046940551aecf6c506c
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\4c\4cd6bad4f36959ffa6bf89250c86f133
+    fullPath: C:\Users\jaume\Desktop\Zombie-Survivor\Library\Artifacts\4c\4cd6bad4f36959ffa6bf89250c86f133
+    projectPath: Library\Artifacts\4c\4cd6bad4f36959ffa6bf89250c86f133
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\52\52c39626e674c00290e26a7d74968872
+    fullPath: C:\Users\jaume\Desktop\Zombie-Survivor\Library\Artifacts\52\52c39626e674c00290e26a7d74968872
+    projectPath: Library\Artifacts\52\52c39626e674c00290e26a7d74968872
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\53\53fe86b0d2bb362429fb71ab55cc9181
+    fullPath: C:\Users\jaume\Desktop\Zombie-Survivor\Library\Artifacts\53\53fe86b0d2bb362429fb71ab55cc9181
+    projectPath: Library\Artifacts\53\53fe86b0d2bb362429fb71ab55cc9181
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\54\541f3fea1dc51d8b6b7861a13a6f73e7
+    fullPath: C:\Users\jaume\Desktop\Zombie-Survivor\Library\Artifacts\54\541f3fea1dc51d8b6b7861a13a6f73e7
+    projectPath: Library\Artifacts\54\541f3fea1dc51d8b6b7861a13a6f73e7
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\54\54606d82279ad22d0da8ea9cbdf54731
+    fullPath: C:\Users\jaume\Desktop\Zombie-Survivor\Library\Artifacts\54\54606d82279ad22d0da8ea9cbdf54731
+    projectPath: Library\Artifacts\54\54606d82279ad22d0da8ea9cbdf54731
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\55\552496dc08487501f04541af992a4d7a
+    fullPath: C:\Users\jaume\Desktop\Zombie-Survivor\Library\Artifacts\55\552496dc08487501f04541af992a4d7a
+    projectPath: Library\Artifacts\55\552496dc08487501f04541af992a4d7a
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\58\5809325c5f01b8db312cf074af833086
+    fullPath: C:\Users\jaume\Desktop\Zombie-Survivor\Library\Artifacts\58\5809325c5f01b8db312cf074af833086
+    projectPath: Library\Artifacts\58\5809325c5f01b8db312cf074af833086
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\58\5819b8ca0e978eea467b5fa14c9051eb
+    fullPath: C:\Users\jaume\Desktop\Zombie-Survivor\Library\Artifacts\58\5819b8ca0e978eea467b5fa14c9051eb
+    projectPath: Library\Artifacts\58\5819b8ca0e978eea467b5fa14c9051eb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\5f\5f59f3702a680d5ce142b759f6e4d349
+    fullPath: C:\Users\jaume\Desktop\Zombie-Survivor\Library\Artifacts\5f\5f59f3702a680d5ce142b759f6e4d349
+    projectPath: Library\Artifacts\5f\5f59f3702a680d5ce142b759f6e4d349
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\60\60b3133ff5c6cab6cc6bd0b46247040c
+    fullPath: C:\Users\jaume\Desktop\Zombie-Survivor\Library\Artifacts\60\60b3133ff5c6cab6cc6bd0b46247040c
+    projectPath: Library\Artifacts\60\60b3133ff5c6cab6cc6bd0b46247040c
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\66\6627924c653bfa401ace5698f61f51bd
+    fullPath: C:\Users\jaume\Desktop\Zombie-Survivor\Library\Artifacts\66\6627924c653bfa401ace5698f61f51bd
+    projectPath: Library\Artifacts\66\6627924c653bfa401ace5698f61f51bd
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\70\70ac2507b922d8deb60b9e079334ea9e
+    fullPath: C:\Users\jaume\Desktop\Zombie-Survivor\Library\Artifacts\70\70ac2507b922d8deb60b9e079334ea9e
+    projectPath: Library\Artifacts\70\70ac2507b922d8deb60b9e079334ea9e
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\80\807ca0da2aa3bd89c44a45b6d0cc0aac
+    fullPath: C:\Users\jaume\Desktop\Zombie-Survivor\Library\Artifacts\80\807ca0da2aa3bd89c44a45b6d0cc0aac
+    projectPath: Library\Artifacts\80\807ca0da2aa3bd89c44a45b6d0cc0aac
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\8a\8a9b0f269207c7bd8236a84fbcaf4ffc
+    fullPath: C:\Users\jaume\Desktop\Zombie-Survivor\Library\Artifacts\8a\8a9b0f269207c7bd8236a84fbcaf4ffc
+    projectPath: Library\Artifacts\8a\8a9b0f269207c7bd8236a84fbcaf4ffc
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\94\9479891b88c8b44a6bf36fc2c6b6c7d0
+    fullPath: C:\Users\jaume\Desktop\Zombie-Survivor\Library\Artifacts\94\9479891b88c8b44a6bf36fc2c6b6c7d0
+    projectPath: Library\Artifacts\94\9479891b88c8b44a6bf36fc2c6b6c7d0
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\a4\a47b9caea0cd0b3f4446c17fc44e7d27
+    fullPath: C:\Users\jaume\Desktop\Zombie-Survivor\Library\Artifacts\a4\a47b9caea0cd0b3f4446c17fc44e7d27
+    projectPath: Library\Artifacts\a4\a47b9caea0cd0b3f4446c17fc44e7d27
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\a5\a532f9edb2fb08da414d2b47006b51a9
+    fullPath: C:\Users\jaume\Desktop\Zombie-Survivor\Library\Artifacts\a5\a532f9edb2fb08da414d2b47006b51a9
+    projectPath: Library\Artifacts\a5\a532f9edb2fb08da414d2b47006b51a9
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\a9\a9d16f073ba16806049997418413f0d5
+    fullPath: C:\Users\jaume\Desktop\Zombie-Survivor\Library\Artifacts\a9\a9d16f073ba16806049997418413f0d5
+    projectPath: Library\Artifacts\a9\a9d16f073ba16806049997418413f0d5
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\b2\b2f1bad4949c5ad562a257ac86cc14a4
+    fullPath: C:\Users\jaume\Desktop\Zombie-Survivor\Library\Artifacts\b2\b2f1bad4949c5ad562a257ac86cc14a4
+    projectPath: Library\Artifacts\b2\b2f1bad4949c5ad562a257ac86cc14a4
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\b3\b305d2fe7112e681be9b5920fbf17ef4
+    fullPath: C:\Users\jaume\Desktop\Zombie-Survivor\Library\Artifacts\b3\b305d2fe7112e681be9b5920fbf17ef4
+    projectPath: Library\Artifacts\b3\b305d2fe7112e681be9b5920fbf17ef4
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\b5\b5ead1567c0a789b3f66f69cac12da58
+    fullPath: C:\Users\jaume\Desktop\Zombie-Survivor\Library\Artifacts\b5\b5ead1567c0a789b3f66f69cac12da58
+    projectPath: Library\Artifacts\b5\b5ead1567c0a789b3f66f69cac12da58
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\b6\b6a4213a286014588a8aebe5d22cfbdc
+    fullPath: C:\Users\jaume\Desktop\Zombie-Survivor\Library\Artifacts\b6\b6a4213a286014588a8aebe5d22cfbdc
+    projectPath: Library\Artifacts\b6\b6a4213a286014588a8aebe5d22cfbdc
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\ba\ba0795544fcf5a2b707ac9dd42a76c15
+    fullPath: C:\Users\jaume\Desktop\Zombie-Survivor\Library\Artifacts\ba\ba0795544fcf5a2b707ac9dd42a76c15
+    projectPath: Library\Artifacts\ba\ba0795544fcf5a2b707ac9dd42a76c15
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\e0\e05cbffb043078e02fea7c4205cd9cdd
+    fullPath: C:\Users\jaume\Desktop\Zombie-Survivor\Library\Artifacts\e0\e05cbffb043078e02fea7c4205cd9cdd
+    projectPath: Library\Artifacts\e0\e05cbffb043078e02fea7c4205cd9cdd
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\e1\e1553c827083b611f7750181800733ff
+    fullPath: C:\Users\jaume\Desktop\Zombie-Survivor\Library\Artifacts\e1\e1553c827083b611f7750181800733ff
+    projectPath: Library\Artifacts\e1\e1553c827083b611f7750181800733ff
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\e3\e3cc80a1917b4c3c942ca9e2b7d1e227
+    fullPath: C:\Users\jaume\Desktop\Zombie-Survivor\Library\Artifacts\e3\e3cc80a1917b4c3c942ca9e2b7d1e227
+    projectPath: Library\Artifacts\e3\e3cc80a1917b4c3c942ca9e2b7d1e227
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\e4\e4f6a91d275c8f2789d5e6a680a6875a
+    fullPath: C:\Users\jaume\Desktop\Zombie-Survivor\Library\Artifacts\e4\e4f6a91d275c8f2789d5e6a680a6875a
+    projectPath: Library\Artifacts\e4\e4f6a91d275c8f2789d5e6a680a6875a
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\e5\e573dc8eccc5d9d34a7e058b17eae671
+    fullPath: C:\Users\jaume\Desktop\Zombie-Survivor\Library\Artifacts\e5\e573dc8eccc5d9d34a7e058b17eae671
+    projectPath: Library\Artifacts\e5\e573dc8eccc5d9d34a7e058b17eae671
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\e8\e8051b9ae2c331c0400e9f1d705c6d63
+    fullPath: C:\Users\jaume\Desktop\Zombie-Survivor\Library\Artifacts\e8\e8051b9ae2c331c0400e9f1d705c6d63
+    projectPath: Library\Artifacts\e8\e8051b9ae2c331c0400e9f1d705c6d63
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\e9\e982fabe0b9cb5d5adedcadc8bc35673
+    fullPath: C:\Users\jaume\Desktop\Zombie-Survivor\Library\Artifacts\e9\e982fabe0b9cb5d5adedcadc8bc35673
+    projectPath: Library\Artifacts\e9\e982fabe0b9cb5d5adedcadc8bc35673
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\f5\f5b6854986254902e3875246f0a107d5
+    fullPath: C:\Users\jaume\Desktop\Zombie-Survivor\Library\Artifacts\f5\f5b6854986254902e3875246f0a107d5
+    projectPath: Library\Artifacts\f5\f5b6854986254902e3875246f0a107d5
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\f7\f775fdf94868dca9683262fed57ed52b
+    fullPath: C:\Users\jaume\Desktop\Zombie-Survivor\Library\Artifacts\f7\f775fdf94868dca9683262fed57ed52b
+    projectPath: Library\Artifacts\f7\f775fdf94868dca9683262fed57ed52b
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\f8\f8f2b231e45c01896a10ff5e7a369966
+    fullPath: C:\Users\jaume\Desktop\Zombie-Survivor\Library\Artifacts\f8\f8f2b231e45c01896a10ff5e7a369966
+    projectPath: Library\Artifacts\f8\f8f2b231e45c01896a10ff5e7a369966
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\fd\fd056532a01c287cf7b90bc7c7ff0786
+    fullPath: C:\Users\jaume\Desktop\Zombie-Survivor\Library\Artifacts\fd\fd056532a01c287cf7b90bc7c7ff0786
+    projectPath: Library\Artifacts\fd\fd056532a01c287cf7b90bc7c7ff0786
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library\BuildPlayerData\Editor\TypeDb-All.json
-    fullPath: C:\Users\krute\Desktop\Juego_Unity\Library\BuildPlayerData\Editor\TypeDb-All.json
+    fullPath: C:\Users\jaume\Desktop\Zombie-Survivor\Library\BuildPlayerData\Editor\TypeDb-All.json
     projectPath: Library\BuildPlayerData\Editor\TypeDb-All.json
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: Library\BuildPlayerData\Player\TypeDb-All.json
-    fullPath: C:\Users\krute\Desktop\Juego_Unity\Library\BuildPlayerData\Player\TypeDb-All.json
+    fullPath: C:\Users\jaume\Desktop\Zombie-Survivor\Library\BuildPlayerData\Player\TypeDb-All.json
     projectPath: Library\BuildPlayerData\Player\TypeDb-All.json
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: Library\BuildPlayerData\response.rsp
+    fullPath: C:\Users\jaume\Desktop\Zombie-Survivor\Library\BuildPlayerData\response.rsp
+    projectPath: Library\BuildPlayerData\response.rsp
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\EditorUserBuildSettings.asset
+    fullPath: C:\Users\jaume\Desktop\Zombie-Survivor\Library\EditorUserBuildSettings.asset
+    projectPath: Library\EditorUserBuildSettings.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Library\gfu\cache\branches.yaml
-    fullPath: C:\Users\krute\Desktop\Juego_Unity\Library\gfu\cache\branches.yaml
+    fullPath: C:\Users\jaume\Desktop\Zombie-Survivor\Library\gfu\cache\branches.yaml
     projectPath: Library\gfu\cache\branches.yaml
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\gfu\cache\gitlocks.yaml
-    fullPath: C:\Users\krute\Desktop\Juego_Unity\Library\gfu\cache\gitlocks.yaml
-    projectPath: Library\gfu\cache\gitlocks.yaml
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Library\gfu\cache\gitlog.yaml
-    fullPath: C:\Users\krute\Desktop\Juego_Unity\Library\gfu\cache\gitlog.yaml
+    fullPath: C:\Users\jaume\Desktop\Zombie-Survivor\Library\gfu\cache\gitlog.yaml
     projectPath: Library\gfu\cache\gitlog.yaml
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: Library\gfu\cache\gitstatusentries.yaml
-    fullPath: C:\Users\krute\Desktop\Juego_Unity\Library\gfu\cache\gitstatusentries.yaml
+    fullPath: C:\Users\jaume\Desktop\Zombie-Survivor\Library\gfu\cache\gitstatusentries.yaml
     projectPath: Library\gfu\cache\gitstatusentries.yaml
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: Library\gfu\cache\gittrackingstatus.yaml
-    fullPath: C:\Users\krute\Desktop\Juego_Unity\Library\gfu\cache\gittrackingstatus.yaml
+    fullPath: C:\Users\jaume\Desktop\Zombie-Survivor\Library\gfu\cache\gittrackingstatus.yaml
     projectPath: Library\gfu\cache\gittrackingstatus.yaml
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: Library\gfu\cache\repoinfo.yaml
-    fullPath: C:\Users\krute\Desktop\Juego_Unity\Library\gfu\cache\repoinfo.yaml
+    fullPath: C:\Users\jaume\Desktop\Zombie-Survivor\Library\gfu\cache\repoinfo.yaml
     projectPath: Library\gfu\cache\repoinfo.yaml
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: Library\LastBuild.buildreport
-    fullPath: C:\Users\krute\Desktop\Juego_Unity\Library\LastBuild.buildreport
+    fullPath: C:\Users\jaume\Desktop\Zombie-Survivor\Library\LastBuild.buildreport
     projectPath: Library\LastBuild.buildreport
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: Library\LastSceneManagerSetup.txt
-    fullPath: C:\Users\krute\Desktop\Juego_Unity\Library\LastSceneManagerSetup.txt
+    fullPath: C:\Users\jaume\Desktop\Zombie-Survivor\Library\LastSceneManagerSetup.txt
     projectPath: Library\LastSceneManagerSetup.txt
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: ProjectSettings\EditorBuildSettings.asset
-    fullPath: C:\Users\krute\Desktop\Juego_Unity\ProjectSettings\EditorBuildSettings.asset
-    projectPath: ProjectSettings\EditorBuildSettings.asset
+  - path: ProjectSettings\TagManager.asset
+    fullPath: C:\Users\jaume\Desktop\Zombie-Survivor\ProjectSettings\TagManager.asset
+    projectPath: ProjectSettings\TagManager.asset
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3

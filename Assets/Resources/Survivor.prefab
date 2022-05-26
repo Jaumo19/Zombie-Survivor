@@ -50,6 +50,7 @@ GameObject:
   - component: {fileID: -4840772991418189428}
   - component: {fileID: 2066774779980639285}
   - component: {fileID: -709183066709820854}
+  - component: {fileID: 3551768911160542487}
   m_Layer: 0
   m_Name: Survivor
   m_TagString: Player
@@ -316,7 +317,7 @@ MonoBehaviour:
     ExtrapolateIncludingRoundTripTime: 1
     ExtrapolateNumberOfStoredPositions: 1
   m_RotationModel:
-    SynchronizeEnabled: 0
+    SynchronizeEnabled: 1
     InterpolateOption: 1
     InterpolateRotateTowardsSpeed: 180
     InterpolateLerpSpeed: 5
@@ -402,3 +403,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 570a4b2552cffc84cbc8f5555556eed3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &3551768911160542487
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 299824569424980238}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObservedComponentsFoldoutOpen: 1
+  Group: 0
+  prefixField: -1
+  Synchronization: 3
+  OwnershipTransfer: 0
+  observableSearch: 2
+  ObservedComponents:
+  - {fileID: -2258545312088600136}
+  sceneViewId: 0
+  InstantiationId: 0
+  isRuntimeInstantiated: 0

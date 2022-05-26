@@ -10,8 +10,7 @@ thanks - delete me! :) */
 
 public class MirarRaton : MonoBehaviour
 {
-    
-    PhotonView view;
+    private PhotonView view;
 
     void Start()
     {
@@ -24,17 +23,18 @@ public class MirarRaton : MonoBehaviour
             faceMouse();
         }
     }
-
+    
     void faceMouse()
     {
         Vector3 mousePosition = Input.mousePosition;
-        mousePosition = Camera.main.ScreenToWorldPoint(mousePosition);
+            mousePosition = Camera.main.ScreenToWorldPoint(mousePosition);
 
-        Vector2 direction = new Vector2(
-            mousePosition.x - transform.position.x,
-            mousePosition.y - transform.position.y
-        );
+            Vector2 direction = new Vector2(
+                mousePosition.x - transform.position.x,
+                mousePosition.y - transform.position.y
+            );
 
-        transform.up = direction;
-    }
+            transform.up = direction;
+            
+        }
 }

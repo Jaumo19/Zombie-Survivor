@@ -41,8 +41,6 @@ public class Enemigo : MonoBehaviour
         {
             Destroy(gameObject);
         }
-
-
     }
 
 }

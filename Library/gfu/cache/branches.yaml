@@ -13,9 +13,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2022-05-26T12:29:01.445+02:00
-  initializedAtString: 2022-05-26T11:25:08.610+02:00
+  lastUpdatedAtString: 2022-05-26T21:19:13.993+02:00
+  initializedAtString: 2022-05-26T21:19:13.368+02:00
   localBranches:
+  - name: Juego-Zombie-Survivor
+    tracking: 
   - name: main
     tracking: origin/main
   remoteBranches:
@@ -33,8 +35,14 @@ MonoBehaviour:
     token: 
   localConfigBranches:
     keys:
+    - Juego-Zombie-Survivor
     - main
     values:
+    - name: Juego-Zombie-Survivor
+      remote:
+        name: 
+        url: 
+      trackingBranch: 
     - name: main
       remote:
         name: origin

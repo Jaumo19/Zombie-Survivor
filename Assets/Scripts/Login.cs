@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
 using UnityEngine.SceneManagement;
+using Photon.Pun;
 
 public class Login : MonoBehaviour
 {
@@ -33,6 +34,7 @@ public class Login : MonoBehaviour
         Debug.Log(w.text);
         if (w.text == "0")
         {
+            PhotonNetwork.NickName = usuario.text;
             SceneManager.LoadScene("Cargando");
         }
         else

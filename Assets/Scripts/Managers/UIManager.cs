@@ -18,6 +18,7 @@ public class UIManager : MonoBehaviour
     [SerializeField] private Image vidaPlayer;
     [SerializeField] private TextMeshProUGUI vidaTMP;
     [SerializeField] private TextMeshProUGUI puntos;
+    [SerializeField] private TextMeshProUGUI nombre;
     public  PhotonView view;
 
     private float vidaActual;
@@ -43,6 +44,7 @@ public class UIManager : MonoBehaviour
         Button btn = boton_muerto.GetComponent<Button>();
         btn.onClick.AddListener(TaskOnClick);
         view = GetComponent<PhotonView>();
+        nombre.text = PhotonNetwork.NickName;
     }
 
     // Update is called once per frame
@@ -68,16 +70,7 @@ public class UIManager : MonoBehaviour
     {
         puntuacion += 100;
         puntos.text = puntuacion.ToString();
-        if (puerta1 == false)
-        {
-            if (puntuacion >= 10000)
-            {
-                llaveNivel1.SetActive(true);
-                /*puerta.SetActive(false);
-                Destroy(spawnsNivel1);*/
-                puerta1 = true;
-            }
-        }
+        
     }
     public void GameOver()
     {
