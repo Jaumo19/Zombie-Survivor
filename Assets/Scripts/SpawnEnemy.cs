@@ -13,11 +13,9 @@ public class SpawnEnemy : MonoBehaviour
 
     void Update()
     {
-        PhotonView photonView = PhotonView.Get(this);
-        photonView.RPC("DecideSiEnemigo", RpcTarget.AllBuffered);
+        DecideSiEnemigo();
     }
 
-    [PunRPC]
     private void DecideSiEnemigo()
     {
         float random = Random.Range(0.0f, 100.0f);
