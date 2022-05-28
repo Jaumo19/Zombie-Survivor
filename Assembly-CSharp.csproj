@@ -89,6 +89,7 @@
      <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\ChatGui.cs" />
      <Compile Include="Assets\Scripts\Camara.cs" />
      <Compile Include="Assets\FREE Footsteps System\scripts\DemoUI.cs" />
+     <Compile Include="Assets\Scripts\FaseFinal.cs" />
      <Compile Include="Assets\Photon\PhotonChat\Demos\Common\TextToggleIsOnTransition.cs" />
      <Compile Include="Assets\Scripts\DeclararSpawns.cs" />
      <Compile Include="Assets\FREE Footsteps System\scripts\FirstPersonController.cs" />

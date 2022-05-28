@@ -6,6 +6,7 @@ using UnityEngine;
 
 public class ComprarPuertas : MonoBehaviour
 {
+    [SerializeField] private GameObject comprarPuerta;
     [SerializeField] private TextMeshProUGUI mensajeComprarPuerta;
 
     [SerializeField] private TextMeshProUGUI dineroActual;
@@ -14,6 +15,7 @@ public class ComprarPuertas : MonoBehaviour
     private void OnCollisionStay2D(Collision2D collision)
     {
         
+        comprarPuerta.SetActive(true);
         mensajeComprarPuerta.enabled = true;
         if (gameObject.name == "Puerta1")
         {
@@ -89,5 +91,6 @@ public class ComprarPuertas : MonoBehaviour
     private void OnCollisionExit2D(Collision2D other)
     {
         mensajeComprarPuerta.enabled = false;
+        comprarPuerta.SetActive(false);
     }
 }

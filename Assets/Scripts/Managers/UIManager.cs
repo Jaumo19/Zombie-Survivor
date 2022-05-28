@@ -19,7 +19,9 @@ public class UIManager : MonoBehaviour
     [SerializeField] private TextMeshProUGUI vidaTMP;
     [SerializeField] private TextMeshProUGUI puntos;
     [SerializeField] private TextMeshProUGUI nombre;
-    [SerializeField] private TextMeshProUGUI mensajeComprarPuerta;
+    [SerializeField] private GameObject mensajeComprarPuerta;
+    [SerializeField] private TextMeshProUGUI titulo;
+    [SerializeField] private TextMeshProUGUI descripcion;
     public  PhotonView view;
 
     private float vidaActual;
@@ -38,7 +40,9 @@ public class UIManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        mensajeComprarPuerta.enabled = false;
+        titulo.text = "Prehistória";
+        descripcion.text = "Hombres que follan mujeres";
+        mensajeComprarPuerta.SetActive(false);
         mensaje_muerto.enabled = false;
         puntos.text = puntuacion.ToString();
 

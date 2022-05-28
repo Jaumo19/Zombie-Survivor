@@ -13,36 +13,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2022-05-29T00:48:34.691+02:00
-  initializedAtString: 2022-05-29T00:47:10.617+02:00
+  lastUpdatedAtString: 2022-05-29T01:49:14.274+02:00
+  initializedAtString: 2022-05-29T01:48:33.512+02:00
   entries:
-  - path: Assets\Imagenes\esBas_ti_ca.png
-    fullPath: C:\Users\jaume\Desktop\Zombie-Survivor\Assets\Imagenes\esBas_ti_ca.png
-    projectPath: Assets\Imagenes\esBas_ti_ca.png
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Imagenes\esBas_ti_ca.png.meta
-    fullPath: C:\Users\jaume\Desktop\Zombie-Survivor\Assets\Imagenes\esBas_ti_ca.png.meta
-    projectPath: Assets\Imagenes\esBas_ti_ca.png.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Imagenes\MapaFinalizado.jpg.meta
-    fullPath: C:\Users\jaume\Desktop\Zombie-Survivor\Assets\Imagenes\MapaFinalizado.jpg.meta
-    projectPath: Assets\Imagenes\MapaFinalizado.jpg.meta
+  - path: Assembly-CSharp.csproj
+    fullPath: C:\Users\jaume\Desktop\Zombie-Survivor\Assembly-CSharp.csproj
+    projectPath: Assembly-CSharp.csproj
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Assets\Imagenes\puerta_moderna.png
-    fullPath: C:\Users\jaume\Desktop\Zombie-Survivor\Assets\Imagenes\puerta_moderna.png
-    projectPath: Assets\Imagenes\puerta_moderna.png
+  - path: Assets\Imagenes\Chapa.png
+    fullPath: C:\Users\jaume\Desktop\Zombie-Survivor\Assets\Imagenes\Chapa.png
+    projectPath: Assets\Imagenes\Chapa.png
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Imagenes\puerta_moderna.png.meta
-    fullPath: C:\Users\jaume\Desktop\Zombie-Survivor\Assets\Imagenes\puerta_moderna.png.meta
-    projectPath: Assets\Imagenes\puerta_moderna.png.meta
+  - path: Assets\Imagenes\Chapa.png.meta
+    fullPath: C:\Users\jaume\Desktop\Zombie-Survivor\Assets\Imagenes\Chapa.png.meta
+    projectPath: Assets\Imagenes\Chapa.png.meta
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -64,9 +52,21 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Assets\Scripts\PlayerMovement.cs
-    fullPath: C:\Users\jaume\Desktop\Zombie-Survivor\Assets\Scripts\PlayerMovement.cs
-    projectPath: Assets\Scripts\PlayerMovement.cs
+  - path: Assets\Scripts\FaseFinal.cs
+    fullPath: C:\Users\jaume\Desktop\Zombie-Survivor\Assets\Scripts\FaseFinal.cs
+    projectPath: Assets\Scripts\FaseFinal.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Scripts\FaseFinal.cs.meta
+    fullPath: C:\Users\jaume\Desktop\Zombie-Survivor\Assets\Scripts\FaseFinal.cs.meta
+    projectPath: Assets\Scripts\FaseFinal.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Scripts\Managers\UIManager.cs
+    fullPath: C:\Users\jaume\Desktop\Zombie-Survivor\Assets\Scripts\Managers\UIManager.cs
+    projectPath: Assets\Scripts\Managers\UIManager.cs
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -103,12 +103,6 @@ MonoBehaviour:
   - path: Library\LastSceneManagerSetup.txt
     fullPath: C:\Users\jaume\Desktop\Zombie-Survivor\Library\LastSceneManagerSetup.txt
     projectPath: Library\LastSceneManagerSetup.txt
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: ProjectSettings\ProjectSettings.asset
-    fullPath: C:\Users\jaume\Desktop\Zombie-Survivor\ProjectSettings\ProjectSettings.asset
-    projectPath: ProjectSettings\ProjectSettings.asset
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
