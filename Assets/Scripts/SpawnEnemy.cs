@@ -19,7 +19,7 @@ public class SpawnEnemy : MonoBehaviour
     private void DecideSiEnemigo()
     {
         float random = Random.Range(0.0f, 100.0f);
-        if (random < 0.05f)
+        if (random < 0.30f)
         {
             GameObject.Instantiate(enemyPrefab, transform.position, transform.rotation);
         }

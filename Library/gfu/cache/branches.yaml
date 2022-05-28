@@ -13,13 +13,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2022-05-27T11:00:00.105+02:00
-  initializedAtString: 2022-05-27T10:47:58.433+02:00
+  lastUpdatedAtString: 2022-05-28T19:07:36.196+02:00
+  initializedAtString: 2022-05-28T19:07:35.724+02:00
   localBranches:
+  - name: Juego-Zombie-Survivor
+    tracking: 
   - name: main
     tracking: origin/main
   remoteBranches:
   - name: origin/HEAD
+    tracking: '[None]'
+  - name: origin/main
     tracking: '[None]'
   remotes:
   - name: origin
@@ -31,8 +35,14 @@ MonoBehaviour:
     token: 
   localConfigBranches:
     keys:
+    - Juego-Zombie-Survivor
     - main
     values:
+    - name: Juego-Zombie-Survivor
+      remote:
+        name: 
+        url: 
+      trackingBranch: 
     - name: main
       remote:
         name: origin
@@ -44,9 +54,15 @@ MonoBehaviour:
     subKeys:
     - Values:
       - HEAD
+      - main
     subKeyValues:
     - Values:
       - name: HEAD
+        remote:
+          name: origin
+          url: https://github.com/Jaumo19/Zombie-Survivor.git
+        trackingBranch: 
+      - name: main
         remote:
           name: origin
           url: https://github.com/Jaumo19/Zombie-Survivor.git

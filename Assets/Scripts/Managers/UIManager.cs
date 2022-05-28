@@ -19,6 +19,7 @@ public class UIManager : MonoBehaviour
     [SerializeField] private TextMeshProUGUI vidaTMP;
     [SerializeField] private TextMeshProUGUI puntos;
     [SerializeField] private TextMeshProUGUI nombre;
+    [SerializeField] private TextMeshProUGUI mensajeComprarPuerta;
     public  PhotonView view;
 
     private float vidaActual;
@@ -28,6 +29,7 @@ public class UIManager : MonoBehaviour
     public GameObject spawnsNivel1;
     private bool puerta1 = false;
     public GameObject llaveNivel1;
+    private int puntosInt;
 
     private void Awake()
     {
@@ -37,6 +39,7 @@ public class UIManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        mensajeComprarPuerta.enabled = false;
         llaveNivel1.SetActive(false);
         mensaje_muerto.enabled = false;
         puntos.text = puntuacion.ToString();
@@ -80,5 +83,11 @@ public class UIManager : MonoBehaviour
     {
         PhotonNetwork.Disconnect();
         PhotonNetwork.LoadLevel("Cargando");
+    }
+
+    public void RestarDinero(int cantidad)
+    {
+        puntuacion -= cantidad;
+        puntos.text = puntuacion.ToString();
     }
 }

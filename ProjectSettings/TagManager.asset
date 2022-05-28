@@ -48,6 +48,9 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Mapa
+    uniqueID: 571943957
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
