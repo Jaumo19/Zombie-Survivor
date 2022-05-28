@@ -10,8 +10,8 @@ public class DeclararSpawns : MonoBehaviour
     
     [SerializeField] private GameObject spawn1;
     [SerializeField] private GameObject spawn2;
-    /*[SerializeField] private GameObject spawn3;
-    [SerializeField] private GameObject spawn4;
+    [SerializeField] private GameObject spawn3;
+    /*[SerializeField] private GameObject spawn4;
     [SerializeField] private GameObject spawn5;*/
     
     private void Awake()
@@ -22,8 +22,8 @@ public class DeclararSpawns : MonoBehaviour
     void Start()
     {
         spawn2.SetActive(false);
-        /*spawn3.SetActive(false);
-        spawn4.SetActive(false);
+        spawn3.SetActive(false);
+        /*spawn4.SetActive(false);
         spawn5.SetActive(false);*/
     }
 
@@ -35,6 +35,12 @@ public class DeclararSpawns : MonoBehaviour
     public void SegundaPuertaAbierta()
     {
         spawn2.SetActive(false);
+        spawn3.SetActive(true);
+    }
+
+    public void TerceraPuertaAbierta()
+    {
+        spawn3.SetActive(false);
     }
     
 }

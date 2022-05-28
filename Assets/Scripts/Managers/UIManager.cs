@@ -28,7 +28,6 @@ public class UIManager : MonoBehaviour
     public GameObject puerta;
     public GameObject spawnsNivel1;
     private bool puerta1 = false;
-    public GameObject llaveNivel1;
     private int puntosInt;
 
     private void Awake()
@@ -40,7 +39,6 @@ public class UIManager : MonoBehaviour
     void Start()
     {
         mensajeComprarPuerta.enabled = false;
-        llaveNivel1.SetActive(false);
         mensaje_muerto.enabled = false;
         puntos.text = puntuacion.ToString();
 

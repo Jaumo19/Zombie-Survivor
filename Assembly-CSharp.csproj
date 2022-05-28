@@ -61,6 +61,7 @@
      <Compile Include="Assets\Photon\PhotonChat\Demos\Common\TextButtonTransition.cs" />
      <Compile Include="Assets\Bullet\Scripts\bloodEffect.cs" />
      <Compile Include="Assets\Photon\PhotonLibs\WebSocket\SocketWebTcp.cs" />
+     <Compile Include="Assets\Scripts\MusicRequester.cs" />
      <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\ChatAppIdCheckerUI.cs" />
      <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\AppSettingsExtensions.cs" />
      <Compile Include="Assets\Bullet\Scripts\Pooling.cs" />
@@ -89,6 +90,7 @@
      <Compile Include="Assets\Scripts\Camara.cs" />
      <Compile Include="Assets\FREE Footsteps System\scripts\DemoUI.cs" />
      <Compile Include="Assets\Photon\PhotonChat\Demos\Common\TextToggleIsOnTransition.cs" />
+     <Compile Include="Assets\Scripts\DeclararSpawns.cs" />
      <Compile Include="Assets\FREE Footsteps System\scripts\FirstPersonController.cs" />
      <Compile Include="Assets\Scripts\ConnectToServer.cs" />
      <Compile Include="Assets\Scripts\CreateAndJoinRooms.cs" />
@@ -97,7 +99,6 @@
      <Compile Include="Assets\Scripts\CameraFollow.cs" />
      <Compile Include="Assets\FREE Footsteps System\scripts\FootstepTrigger.cs" />
      <Compile Include="Assets\Scripts\VidaBase.cs" />
-     <Compile Include="Assets\Scripts\DeclararSpawns.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\Photon\PhotonLibs\netstandard2.0\Photon3Unity3D.xml" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />

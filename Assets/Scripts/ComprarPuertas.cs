@@ -9,9 +9,6 @@ public class ComprarPuertas : MonoBehaviour
     [SerializeField] private TextMeshProUGUI mensajeComprarPuerta;
 
     [SerializeField] private TextMeshProUGUI dineroActual;
-
-    [SerializeField] private GameObject spawns;
-    [SerializeField] private GameObject spawnsSiguiente;
     // Start is called before the first frame update
     
     private void OnCollisionStay2D(Collision2D collision)
@@ -35,7 +32,7 @@ public class ComprarPuertas : MonoBehaviour
                 }
             }
         }
-        if (gameObject.name == "Puerta2")
+        else if (gameObject.name == "Puerta2")
         {
             mensajeComprarPuerta.text = "¿Comprar puerta por 2000$? [E]";
             if (Input.GetKey(KeyCode.E))
@@ -52,6 +49,24 @@ public class ComprarPuertas : MonoBehaviour
                 }
             }
         }
+        else if (gameObject.name == "Puerta3")
+        {
+            mensajeComprarPuerta.text = "¿Comprar puerta por 3000$? [E]";
+            if (Input.GetKey(KeyCode.E))
+            {
+                if (int.Parse(dineroActual.text) >= 3000)
+                {
+                    UIManager.Instance.RestarDinero(3000);
+                    gameObject.SetActive(false);
+                    DeclararSpawns.Instance.TerceraPuertaAbierta();
+                }
+                else
+                {
+                    Debug.Log("No tienes dinero xd");
+                }
+            }
+        }
+        
     }
 
     private void OnCollisionExit2D(Collision2D other)
