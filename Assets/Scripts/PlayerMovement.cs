@@ -44,23 +44,6 @@ public class PlayerMovement : MonoBehaviour
 
             mousePos = cam.ScreenToWorldPoint(Input.mousePosition);
             var velocidad = movement * moveSpeed * Time.deltaTime;
-            animator.SetFloat("Velocidad", velocidad.magnitude);
-            if (movement.x != 0 || movement.y != 0)
-            {
-                if (!audioSource.isPlaying)
-                {
-
-                    audioSource.Play();
-                    audioSource.pitch = Random.Range(0.4f, 0.4f);
-                }
-
-            }
-            else
-            {
-
-                audioSource.Stop();
-                animator.GetComponent<Animator>().enabled = false;
-            }
             if (Input.GetButton("Fire1") && Time.time > _nextFire)
             {
                 _nextFire = Time.time + fireRate;

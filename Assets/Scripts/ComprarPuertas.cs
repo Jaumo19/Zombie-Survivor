@@ -66,6 +66,23 @@ public class ComprarPuertas : MonoBehaviour
                 }
             }
         }
+        else if (gameObject.name == "Puerta4")
+        {
+            mensajeComprarPuerta.text = "¿Comprar puerta por 4000$? [E]";
+            if (Input.GetKey(KeyCode.E))
+            {
+                if (int.Parse(dineroActual.text) >= 4000)
+                {
+                    UIManager.Instance.RestarDinero(4000);
+                    gameObject.SetActive(false);
+                    DeclararSpawns.Instance.CuartaPuertaAbierta();
+                }
+                else
+                {
+                    Debug.Log("No tienes dinero xd");
+                }
+            }
+        }
         
     }
 

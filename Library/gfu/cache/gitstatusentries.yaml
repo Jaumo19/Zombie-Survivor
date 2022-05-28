@@ -13,36 +13,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2022-05-28T22:41:53.437+02:00
-  initializedAtString: 2022-05-28T22:38:39.948+02:00
+  lastUpdatedAtString: 2022-05-29T00:48:34.691+02:00
+  initializedAtString: 2022-05-29T00:47:10.617+02:00
   entries:
-  - path: Assembly-CSharp.csproj
-    fullPath: C:\Users\jaume\Desktop\Zombie-Survivor\Assembly-CSharp.csproj
-    projectPath: Assembly-CSharp.csproj
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Audios.meta
-    fullPath: C:\Users\jaume\Desktop\Zombie-Survivor\Assets\Audios.meta
-    projectPath: Assets\Audios.meta
+  - path: Assets\Imagenes\esBas_ti_ca.png
+    fullPath: C:\Users\jaume\Desktop\Zombie-Survivor\Assets\Imagenes\esBas_ti_ca.png
+    projectPath: Assets\Imagenes\esBas_ti_ca.png
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Audios\soundtrackNivel1.mp3
-    fullPath: C:\Users\jaume\Desktop\Zombie-Survivor\Assets\Audios\soundtrackNivel1.mp3
-    projectPath: Assets\Audios\soundtrackNivel1.mp3
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Audios\soundtrackNivel1.mp3.meta
-    fullPath: C:\Users\jaume\Desktop\Zombie-Survivor\Assets\Audios\soundtrackNivel1.mp3.meta
-    projectPath: Assets\Audios\soundtrackNivel1.mp3.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Imagenes\MapaFinalizado.jpg
-    fullPath: C:\Users\jaume\Desktop\Zombie-Survivor\Assets\Imagenes\MapaFinalizado.jpg
-    projectPath: Assets\Imagenes\MapaFinalizado.jpg
+  - path: Assets\Imagenes\esBas_ti_ca.png.meta
+    fullPath: C:\Users\jaume\Desktop\Zombie-Survivor\Assets\Imagenes\esBas_ti_ca.png.meta
+    projectPath: Assets\Imagenes\esBas_ti_ca.png.meta
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -50,17 +32,17 @@ MonoBehaviour:
     fullPath: C:\Users\jaume\Desktop\Zombie-Survivor\Assets\Imagenes\MapaFinalizado.jpg.meta
     projectPath: Assets\Imagenes\MapaFinalizado.jpg.meta
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Imagenes\puerta_media.png
-    fullPath: C:\Users\jaume\Desktop\Zombie-Survivor\Assets\Imagenes\puerta_media.png
-    projectPath: Assets\Imagenes\puerta_media.png
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Imagenes\puerta_moderna.png
+    fullPath: C:\Users\jaume\Desktop\Zombie-Survivor\Assets\Imagenes\puerta_moderna.png
+    projectPath: Assets\Imagenes\puerta_moderna.png
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Imagenes\puerta_media.png.meta
-    fullPath: C:\Users\jaume\Desktop\Zombie-Survivor\Assets\Imagenes\puerta_media.png.meta
-    projectPath: Assets\Imagenes\puerta_media.png.meta
+  - path: Assets\Imagenes\puerta_moderna.png.meta
+    fullPath: C:\Users\jaume\Desktop\Zombie-Survivor\Assets\Imagenes\puerta_moderna.png.meta
+    projectPath: Assets\Imagenes\puerta_moderna.png.meta
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -82,24 +64,12 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Assets\Scripts\Managers\UIManager.cs
-    fullPath: C:\Users\jaume\Desktop\Zombie-Survivor\Assets\Scripts\Managers\UIManager.cs
-    projectPath: Assets\Scripts\Managers\UIManager.cs
+  - path: Assets\Scripts\PlayerMovement.cs
+    fullPath: C:\Users\jaume\Desktop\Zombie-Survivor\Assets\Scripts\PlayerMovement.cs
+    projectPath: Assets\Scripts\PlayerMovement.cs
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Assets\Scripts\MusicRequester.cs
-    fullPath: C:\Users\jaume\Desktop\Zombie-Survivor\Assets\Scripts\MusicRequester.cs
-    projectPath: Assets\Scripts\MusicRequester.cs
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Scripts\MusicRequester.cs.meta
-    fullPath: C:\Users\jaume\Desktop\Zombie-Survivor\Assets\Scripts\MusicRequester.cs.meta
-    projectPath: Assets\Scripts\MusicRequester.cs.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
   - path: Library\gfu\cache\branches.yaml
     fullPath: C:\Users\jaume\Desktop\Zombie-Survivor\Library\gfu\cache\branches.yaml
     projectPath: Library\gfu\cache\branches.yaml
@@ -127,6 +97,18 @@ MonoBehaviour:
   - path: Library\gfu\cache\repoinfo.yaml
     fullPath: C:\Users\jaume\Desktop\Zombie-Survivor\Library\gfu\cache\repoinfo.yaml
     projectPath: Library\gfu\cache\repoinfo.yaml
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\LastSceneManagerSetup.txt
+    fullPath: C:\Users\jaume\Desktop\Zombie-Survivor\Library\LastSceneManagerSetup.txt
+    projectPath: Library\LastSceneManagerSetup.txt
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: ProjectSettings\ProjectSettings.asset
+    fullPath: C:\Users\jaume\Desktop\Zombie-Survivor\ProjectSettings\ProjectSettings.asset
+    projectPath: ProjectSettings\ProjectSettings.asset
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
