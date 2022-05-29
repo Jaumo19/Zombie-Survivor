@@ -61,6 +61,7 @@
      <Compile Include="Assets\Photon\PhotonChat\Demos\Common\TextButtonTransition.cs" />
      <Compile Include="Assets\Bullet\Scripts\bloodEffect.cs" />
      <Compile Include="Assets\Photon\PhotonLibs\WebSocket\SocketWebTcp.cs" />
+     <Compile Include="Assets\Scripts\DuracionJuego.cs" />
      <Compile Include="Assets\Scripts\MusicRequester.cs" />
      <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\ChatAppIdCheckerUI.cs" />
      <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\AppSettingsExtensions.cs" />
@@ -87,6 +88,7 @@
      <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\FriendItem.cs" />
      <Compile Include="Assets\FREE Footsteps System\scripts\CharacterFootsteps.cs" />
      <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\ChatGui.cs" />
+     <Compile Include="Assets\Scripts\Countdown.cs" />
      <Compile Include="Assets\Scripts\Camara.cs" />
      <Compile Include="Assets\FREE Footsteps System\scripts\DemoUI.cs" />
      <Compile Include="Assets\Scripts\FaseFinal.cs" />

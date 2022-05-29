@@ -41,7 +41,7 @@ public class UIManager : MonoBehaviour
     void Start()
     {
         titulo.text = "Prehistória";
-        descripcion.text = "Hombres que follan mujeres";
+        descripcion.text = "Avanza en la historia.";
         mensajeComprarPuerta.SetActive(false);
         mensaje_muerto.enabled = false;
         puntos.text = puntuacion.ToString();
@@ -73,7 +73,7 @@ public class UIManager : MonoBehaviour
 
     public void AñadirPuntos()
     {
-        puntuacion += 100;
+        puntuacion += 100000;
         puntos.text = puntuacion.ToString();
         
     }
@@ -91,5 +91,10 @@ public class UIManager : MonoBehaviour
     {
         puntuacion -= cantidad;
         puntos.text = puntuacion.ToString();
+    }
+
+    public void HaGanado()
+    {
+        PhotonNetwork.LoadLevel("Cargando");
     }
 }
