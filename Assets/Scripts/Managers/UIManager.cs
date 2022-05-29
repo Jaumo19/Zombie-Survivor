@@ -73,7 +73,7 @@ public class UIManager : MonoBehaviour
 
     public void AñadirPuntos()
     {
-        puntuacion += 100000;
+        puntuacion += 100;
         puntos.text = puntuacion.ToString();
         
     }

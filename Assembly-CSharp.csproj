@@ -94,6 +94,7 @@
      <Compile Include="Assets\Scripts\FaseFinal.cs" />
      <Compile Include="Assets\Photon\PhotonChat\Demos\Common\TextToggleIsOnTransition.cs" />
      <Compile Include="Assets\Scripts\DeclararSpawns.cs" />
+     <Compile Include="Assets\Scripts\Zonas.cs" />
      <Compile Include="Assets\FREE Footsteps System\scripts\FirstPersonController.cs" />
      <Compile Include="Assets\Scripts\ConnectToServer.cs" />
      <Compile Include="Assets\Scripts\CreateAndJoinRooms.cs" />

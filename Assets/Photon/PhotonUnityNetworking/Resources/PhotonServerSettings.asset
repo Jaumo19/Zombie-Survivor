@@ -43,6 +43,10 @@ MonoBehaviour:
   - PersonajeDerrotado
   - DecideSiEnemigo
   - faceMouse
+  - CuartaPuertaAbierta
+  - PrimeraPuertaAbierta
+  - SegundaPuertaAbierta
+  - TerceraPuertaAbierta
   DisableAutoOpenWizard: 1
   ShowSettings: 0
   DevRegionSetOnce: 1

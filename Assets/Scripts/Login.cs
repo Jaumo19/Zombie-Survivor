@@ -29,7 +29,7 @@ public class Login : MonoBehaviour
         form.AddField("usuario", usuario.text);
         form.AddField("password", password.text);
 
-        WWW w = new WWW("https://undelectable-constr.000webhostapp.com/tratarDatos.php", form);
+        WWW w = new WWW("https://zombiesurvivor.000webhostapp.com/tratarDatos.php", form);
         yield return w;
         Debug.Log(w.text);
         if (w.text == "0")
