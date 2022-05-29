@@ -14,10 +14,8 @@ public class PlayerMovement : MonoBehaviour
     Vector2 mousePos;
     
     private Animator animator;
-
+    private AudioSource sonido_disparo;
     
-    AudioSource audioSource;
-
     PhotonView view;
 
     public Transform firePoint;
@@ -30,9 +28,10 @@ public class PlayerMovement : MonoBehaviour
 
     // Update is called once per frame
 
-    void Start() {
+    void Start()
+    {
+        sonido_disparo = GetComponent<AudioSource>();
         animator = GetComponent<Animator>();
-        audioSource = gameObject.GetComponent<AudioSource> ();
         view = GetComponent<PhotonView>();
     }
     void Update()
@@ -69,5 +68,6 @@ public class PlayerMovement : MonoBehaviour
         GameObject bullet = Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
         Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
         rb.AddForce(firePoint.up * bulletForce, ForceMode2D.Impulse);
+        sonido_disparo.Play();
     }
 }
