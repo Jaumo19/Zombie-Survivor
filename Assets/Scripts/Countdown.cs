@@ -17,7 +17,7 @@ public class Countdown : MonoBehaviour
     void Update()
     {
    
-        if (tiempo < 30)
+        if (tiempo < 60)
         {
             tiempo += Time.deltaTime;
         }

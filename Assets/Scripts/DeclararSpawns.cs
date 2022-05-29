@@ -7,7 +7,8 @@ public class DeclararSpawns : MonoBehaviour
 {
     
     public static DeclararSpawns Instance;
-    public PhotonView view;
+    private PhotonView view;
+    private AudioSource sonido_comprar;
     
     
     [SerializeField] private GameObject spawn1;
@@ -28,29 +29,34 @@ public class DeclararSpawns : MonoBehaviour
         spawn3.SetActive(false);
         spawn4.SetActive(false);
         spawn5.SetActive(false);
+        sonido_comprar = GetComponent<AudioSource>();
     }
 
     [PunRPC]
     public void PrimeraPuertaAbierta()
     {
+        sonido_comprar.Play();
         spawn1.SetActive(false);
         spawn2.SetActive(true);
     }
     [PunRPC]
     public void SegundaPuertaAbierta()
     {
+        sonido_comprar.Play();
         spawn2.SetActive(false);
         spawn3.SetActive(true);
     }
     [PunRPC]
     public void TerceraPuertaAbierta()
     {
+        sonido_comprar.Play();
         spawn3.SetActive(false);
         spawn4.SetActive(true);
     }
     [PunRPC]
     public void CuartaPuertaAbierta()
     {
+        sonido_comprar.Play();
         spawn4.SetActive(false);
     }
     

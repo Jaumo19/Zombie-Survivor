@@ -10,7 +10,9 @@ public class ComprarPuertas : MonoBehaviour
     [SerializeField] private TextMeshProUGUI mensajeComprarPuerta;
 
     [SerializeField] private TextMeshProUGUI dineroActual;
+    
     // Start is called before the first frame update
+    
     
     private void OnCollisionStay2D(Collision2D collision)
     {
@@ -20,63 +22,51 @@ public class ComprarPuertas : MonoBehaviour
             mensajeComprarPuerta.enabled = true;
             if (gameObject.name == "Puerta1")
             {
-                mensajeComprarPuerta.text = "¿Comprar puerta por 1000$? [E]";
+                mensajeComprarPuerta.text = "¿Comprar puerta por 2500$? [E]";
                 if (Input.GetKey(KeyCode.E))
                 {
-                    if (int.Parse(dineroActual.text) >= 1000)
+                    if (int.Parse(dineroActual.text) >= 2500)
                     {
-                        UIManager.Instance.RestarDinero(1000);
+                        UIManager.Instance.RestarDinero(2500);
                         gameObject.SetActive(false);
                         DeclararSpawns.Instance.PrimeraPuertaAbierta();
-                    }
-                    else
-                    {
-                        Debug.Log("No tienes dinero xd");
                     }
                 }
             }
             else if (gameObject.name == "Puerta2")
             {
-                mensajeComprarPuerta.text = "¿Comprar puerta por 2000$? [E]";
+                mensajeComprarPuerta.text = "¿Comprar puerta por 4500$? [E]";
                 if (Input.GetKey(KeyCode.E))
                 {
-                    if (int.Parse(dineroActual.text) >= 2000)
+                    if (int.Parse(dineroActual.text) >= 4500)
                     {
-                        UIManager.Instance.RestarDinero(2000);
+                        UIManager.Instance.RestarDinero(4500);
                         gameObject.SetActive(false);
                         DeclararSpawns.Instance.SegundaPuertaAbierta();
-                    }
-                    else
-                    {
-                        Debug.Log("No tienes dinero xd");
                     }
                 }
             }
             else if (gameObject.name == "Puerta3")
             {
-                mensajeComprarPuerta.text = "¿Comprar puerta por 3000$? [E]";
+                mensajeComprarPuerta.text = "¿Comprar puerta por 6000$? [E]";
                 if (Input.GetKey(KeyCode.E))
                 {
-                    if (int.Parse(dineroActual.text) >= 3000)
+                    if (int.Parse(dineroActual.text) >= 6000)
                     {
-                        UIManager.Instance.RestarDinero(3000);
+                        UIManager.Instance.RestarDinero(6000);
                         gameObject.SetActive(false);
                         DeclararSpawns.Instance.TerceraPuertaAbierta();
-                    }
-                    else
-                    {
-                        Debug.Log("No tienes dinero xd");
                     }
                 }
             }
             else if (gameObject.name == "Puerta4")
             {
-                mensajeComprarPuerta.text = "¿Comprar puerta por 4000$? [E]";
+                mensajeComprarPuerta.text = "¿Comprar puerta por 7000$? [E]";
                 if (Input.GetKey(KeyCode.E))
                 {
-                    if (int.Parse(dineroActual.text) >= 4000)
+                    if (int.Parse(dineroActual.text) >= 7000)
                     {
-                        UIManager.Instance.RestarDinero(4000);
+                        UIManager.Instance.RestarDinero(7000);
                         gameObject.SetActive(false);
                         DeclararSpawns.Instance.CuartaPuertaAbierta();
                     }

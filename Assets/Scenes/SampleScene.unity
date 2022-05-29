@@ -373,8 +373,9 @@ MonoBehaviour:
       m_Calls: []
   m_text: Nombre
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 6613c5d720679454b8d8718c2d5a2e09, type: 2}
+  m_sharedMaterial: {fileID: 2370713303241224850, guid: 6613c5d720679454b8d8718c2d5a2e09,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -913,6 +914,8 @@ MonoBehaviour:
   enemyPrefab: {fileID: 2286365115698762685, guid: a2ed271d33f284144a8e35b429713ff0,
     type: 3}
   view: {fileID: 0}
+  tiempo: 0
+  probabilidad: 0
 --- !u!1 &81596530
 GameObject:
   m_ObjectHideFlags: 0
@@ -2146,8 +2149,9 @@ MonoBehaviour:
       m_Calls: []
   m_text: 0000000
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 6613c5d720679454b8d8718c2d5a2e09, type: 2}
+  m_sharedMaterial: {fileID: 2370713303241224850, guid: 6613c5d720679454b8d8718c2d5a2e09,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2309,6 +2313,8 @@ MonoBehaviour:
   enemyPrefab: {fileID: 2286365115698762685, guid: a2ed271d33f284144a8e35b429713ff0,
     type: 3}
   view: {fileID: 0}
+  tiempo: 0
+  probabilidad: 0
 --- !u!1 &366954538
 GameObject:
   m_ObjectHideFlags: 0
@@ -2783,6 +2789,8 @@ MonoBehaviour:
   enemyPrefab: {fileID: 2286365115698762685, guid: a2ed271d33f284144a8e35b429713ff0,
     type: 3}
   view: {fileID: 0}
+  tiempo: 0
+  probabilidad: 0
 --- !u!114 &473643974
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3016,15 +3024,16 @@ MonoBehaviour:
       m_Calls: []
   m_text: "\xBFComprar puerta por DINERO? [E]"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 6613c5d720679454b8d8718c2d5a2e09, type: 2}
+  m_sharedMaterial: {fileID: 2370713303241224850, guid: 6613c5d720679454b8d8718c2d5a2e09,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4279703455
-  m_fontColor: {r: 0.6226415, g: 0.09104663, b: 0.09104663, a: 1}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -3297,6 +3306,8 @@ MonoBehaviour:
   enemyPrefab: {fileID: 2286365115698762685, guid: a2ed271d33f284144a8e35b429713ff0,
     type: 3}
   view: {fileID: 0}
+  tiempo: 0
+  probabilidad: 0
 --- !u!1 &532660227
 GameObject:
   m_ObjectHideFlags: 0
@@ -3413,8 +3424,9 @@ MonoBehaviour:
       m_Calls: []
   m_text: "\xA1Has ganado!"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 6613c5d720679454b8d8718c2d5a2e09, type: 2}
+  m_sharedMaterial: {fileID: 2370713303241224850, guid: 6613c5d720679454b8d8718c2d5a2e09,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3671,6 +3683,8 @@ MonoBehaviour:
   enemyPrefab: {fileID: 2286365115698762685, guid: a2ed271d33f284144a8e35b429713ff0,
     type: 3}
   view: {fileID: 0}
+  tiempo: 0
+  probabilidad: 0
 --- !u!1 &650683002
 GameObject:
   m_ObjectHideFlags: 0
@@ -4064,6 +4078,8 @@ MonoBehaviour:
   enemyPrefab: {fileID: 2286365115698762685, guid: a2ed271d33f284144a8e35b429713ff0,
     type: 3}
   view: {fileID: 0}
+  tiempo: 0
+  probabilidad: 0
 --- !u!1 &686703834
 GameObject:
   m_ObjectHideFlags: 0
@@ -4694,6 +4710,8 @@ MonoBehaviour:
   enemyPrefab: {fileID: 2286365115698762685, guid: a2ed271d33f284144a8e35b429713ff0,
     type: 3}
   view: {fileID: 0}
+  tiempo: 0
+  probabilidad: 0
 --- !u!1 &813017325
 GameObject:
   m_ObjectHideFlags: 0
@@ -5238,6 +5256,8 @@ MonoBehaviour:
   enemyPrefab: {fileID: 2286365115698762685, guid: a2ed271d33f284144a8e35b429713ff0,
     type: 3}
   view: {fileID: 0}
+  tiempo: 0
+  probabilidad: 0
 --- !u!1 &913510534
 GameObject:
   m_ObjectHideFlags: 0
@@ -5436,6 +5456,8 @@ MonoBehaviour:
   enemyPrefab: {fileID: 2286365115698762685, guid: a2ed271d33f284144a8e35b429713ff0,
     type: 3}
   view: {fileID: 0}
+  tiempo: 0
+  probabilidad: 0
 --- !u!1 &957828196
 GameObject:
   m_ObjectHideFlags: 0
@@ -5725,8 +5747,9 @@ MonoBehaviour:
 
 '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 6613c5d720679454b8d8718c2d5a2e09, type: 2}
+  m_sharedMaterial: {fileID: 2370713303241224850, guid: 6613c5d720679454b8d8718c2d5a2e09,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -6358,6 +6381,8 @@ MonoBehaviour:
   enemyPrefab: {fileID: 2286365115698762685, guid: a2ed271d33f284144a8e35b429713ff0,
     type: 3}
   view: {fileID: 0}
+  tiempo: 0
+  probabilidad: 0
 --- !u!1 &1094162819
 GameObject:
   m_ObjectHideFlags: 0
@@ -6588,8 +6613,9 @@ MonoBehaviour:
       m_Calls: []
   m_text: Mensaje
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 6613c5d720679454b8d8718c2d5a2e09, type: 2}
+  m_sharedMaterial: {fileID: 2370713303241224850, guid: 6613c5d720679454b8d8718c2d5a2e09,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -6649,7 +6675,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -158.64972, y: 1.9586182, z: -156.69104, w: -50.92456}
+  m_margin: {x: -135.03961, y: 1.9586182, z: -145.794, w: -50.92456}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -6982,6 +7008,8 @@ MonoBehaviour:
   enemyPrefab: {fileID: 2286365115698762685, guid: a2ed271d33f284144a8e35b429713ff0,
     type: 3}
   view: {fileID: 0}
+  tiempo: 0
+  probabilidad: 0
 --- !u!114 &1164557146
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7338,8 +7366,9 @@ MonoBehaviour:
       m_Calls: []
   m_text: Titulo
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 6613c5d720679454b8d8718c2d5a2e09, type: 2}
+  m_sharedMaterial: {fileID: 2370713303241224850, guid: 6613c5d720679454b8d8718c2d5a2e09,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -7630,6 +7659,8 @@ MonoBehaviour:
   enemyPrefab: {fileID: 2286365115698762685, guid: a2ed271d33f284144a8e35b429713ff0,
     type: 3}
   view: {fileID: 0}
+  tiempo: 0
+  probabilidad: 0
 --- !u!1 &1249076304
 GameObject:
   m_ObjectHideFlags: 0
@@ -8943,6 +8974,8 @@ MonoBehaviour:
   enemyPrefab: {fileID: 2286365115698762685, guid: a2ed271d33f284144a8e35b429713ff0,
     type: 3}
   view: {fileID: 0}
+  tiempo: 0
+  probabilidad: 0
 --- !u!114 &1418077534
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9164,6 +9197,8 @@ MonoBehaviour:
   enemyPrefab: {fileID: 2286365115698762685, guid: a2ed271d33f284144a8e35b429713ff0,
     type: 3}
   view: {fileID: 0}
+  tiempo: 0
+  probabilidad: 0
 --- !u!1 &1446078007
 GameObject:
   m_ObjectHideFlags: 0
@@ -9347,6 +9382,8 @@ MonoBehaviour:
   enemyPrefab: {fileID: 2286365115698762685, guid: a2ed271d33f284144a8e35b429713ff0,
     type: 3}
   view: {fileID: 0}
+  tiempo: 0
+  probabilidad: 0
 --- !u!1 &1471187446
 GameObject:
   m_ObjectHideFlags: 0
@@ -9735,6 +9772,8 @@ MonoBehaviour:
   enemyPrefab: {fileID: 2286365115698762685, guid: a2ed271d33f284144a8e35b429713ff0,
     type: 3}
   view: {fileID: 0}
+  tiempo: 0
+  probabilidad: 0
 --- !u!1 &1505313849
 GameObject:
   m_ObjectHideFlags: 0
@@ -10500,6 +10539,8 @@ MonoBehaviour:
   enemyPrefab: {fileID: 2286365115698762685, guid: a2ed271d33f284144a8e35b429713ff0,
     type: 3}
   view: {fileID: 0}
+  tiempo: 0
+  probabilidad: 0
 --- !u!1 &1680394434
 GameObject:
   m_ObjectHideFlags: 0
@@ -10821,10 +10862,11 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "Un helicoptero est\xE1 llegando a tu posici\xF3n. Tendr\xE1s que aguantar
-    30 segundos antes de la recogida, \xA1Buena suerte!"
+    1 minuto antes de la recogida, \n\xA1Buena suerte!"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 6613c5d720679454b8d8718c2d5a2e09, type: 2}
+  m_sharedMaterial: {fileID: 2370713303241224850, guid: 6613c5d720679454b8d8718c2d5a2e09,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -11071,8 +11113,9 @@ MonoBehaviour:
       m_Calls: []
   m_text: 100/100
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 6613c5d720679454b8d8718c2d5a2e09, type: 2}
+  m_sharedMaterial: {fileID: 2370713303241224850, guid: 6613c5d720679454b8d8718c2d5a2e09,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -12473,6 +12516,8 @@ MonoBehaviour:
   enemyPrefab: {fileID: 2286365115698762685, guid: a2ed271d33f284144a8e35b429713ff0,
     type: 3}
   view: {fileID: 0}
+  tiempo: 0
+  probabilidad: 0
 --- !u!114 &2007080847
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12621,6 +12666,8 @@ MonoBehaviour:
   enemyPrefab: {fileID: 2286365115698762685, guid: a2ed271d33f284144a8e35b429713ff0,
     type: 3}
   view: {fileID: 0}
+  tiempo: 0
+  probabilidad: 0
 --- !u!1 &2044545639
 GameObject:
   m_ObjectHideFlags: 0
@@ -12765,6 +12812,8 @@ MonoBehaviour:
   enemyPrefab: {fileID: 2286365115698762685, guid: a2ed271d33f284144a8e35b429713ff0,
     type: 3}
   view: {fileID: 0}
+  tiempo: 0
+  probabilidad: 0
 --- !u!1 &2062044745
 GameObject:
   m_ObjectHideFlags: 0
@@ -13480,6 +13529,7 @@ GameObject:
   - component: {fileID: 2128185772}
   - component: {fileID: 2128185771}
   - component: {fileID: 2128185773}
+  - component: {fileID: 2128185774}
   m_Layer: 0
   m_Name: SpawnManager
   m_TagString: Untagged
@@ -13531,9 +13581,104 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 420b3ae59a30d2e498b931bf8a7ac67c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  view: {fileID: 0}
   spawn1: {fileID: 902406295}
   spawn2: {fileID: 410382444}
   spawn3: {fileID: 219766895}
   spawn4: {fileID: 468540661}
   spawn5: {fileID: 1981924446}
+--- !u!82 &2128185774
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2128185770}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 6c77c13394313f44284a1dcea70a5e4b, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4

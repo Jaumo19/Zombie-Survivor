@@ -42,4 +42,9 @@ public class Login : MonoBehaviour
             datosIncorrectos.enabled = true;
         }
     }
+
+    public void comprobarRegistro()
+    {
+        Application.OpenURL("https://zombiesurvivor.000webhostapp.com/registrarse.html");
+    }
 }
