@@ -7,39 +7,32 @@ public class SpawnEnemy : MonoBehaviour
 {
     public GameObject enemyPrefab;
     public PhotonView view;
-    public float tiempo;
-    public float probabilidad;
-    private void Start()
+    float tiempo_contado;
+    float tiempo_contar;
+
+    void Start()
     {
-        probabilidad = 0.25f;
-        view = GetComponent<PhotonView>();
+        tiempo_contado = 2f;
+        tiempo_contar = 2f;
     }
 
     void Update()
     {
-        if (view.IsMine)
+        if (tiempo_contado >= tiempo_contar)
         {
             DecideSiEnemigo();
+            tiempo_contado = 0f;
         }
+        else
+        {
+            tiempo_contado += Time.deltaTime;
+        }
+         
+
     }
 
-    [PunRPC]
     private void DecideSiEnemigo()
     {
-        float random = Random.Range(0.0f, 100.0f);
-        if (random < probabilidad)
-        {
-            GameObject.Instantiate(enemyPrefab, transform.position, transform.rotation);
-        }
-
-        tiempo += Time.deltaTime;
-        if (tiempo >= 60)
-        {
-            
-            tiempo = 0;
-            probabilidad = probabilidad + 0.10f;
-            Debug.Log("Nueva probabilidad: " + probabilidad);
-
-        }
+        GameObject.Instantiate(enemyPrefab, transform.position, transform.rotation);
     }
 }

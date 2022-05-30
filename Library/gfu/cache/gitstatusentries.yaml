@@ -13,110 +13,90 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2022-05-29T22:27:15.160+02:00
-  initializedAtString: 2022-05-29T22:27:14.465+02:00
+  lastUpdatedAtString: 2022-05-30T13:49:04.009+02:00
+  initializedAtString: 2022-05-30T13:49:04.009+02:00
   entries:
-  - path: Assets\Audios\comprar.mp3
-    fullPath: C:\Users\jaume\Desktop\Zombie-Survivor\Assets\Audios\comprar.mp3
-    projectPath: Assets\Audios\comprar.mp3
+  - path: Assembly-CSharp.csproj
+    fullPath: C:\Users\jaume\Desktop\Zombie-Survivor\Assembly-CSharp.csproj
+    projectPath: Assembly-CSharp.csproj
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Audios\comprar.mp3.meta
-    fullPath: C:\Users\jaume\Desktop\Zombie-Survivor\Assets\Audios\comprar.mp3.meta
-    projectPath: Assets\Audios\comprar.mp3.meta
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assembly-CSharp-Editor.csproj
+    fullPath: C:\Users\jaume\Desktop\Zombie-Survivor\Assembly-CSharp-Editor.csproj
+    projectPath: Assembly-CSharp-Editor.csproj
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Fonts.meta
-    fullPath: C:\Users\jaume\Desktop\Zombie-Survivor\Assets\Fonts.meta
-    projectPath: Assets\Fonts.meta
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assembly-CSharp-Editor-firstpass.csproj
+    fullPath: C:\Users\jaume\Desktop\Zombie-Survivor\Assembly-CSharp-Editor-firstpass.csproj
+    projectPath: Assembly-CSharp-Editor-firstpass.csproj
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Fonts\FuenteGuapa-Regular SDF.asset
-    fullPath: C:\Users\jaume\Desktop\Zombie-Survivor\Assets\Fonts\FuenteGuapa-Regular
-      SDF.asset
-    projectPath: Assets\Fonts\FuenteGuapa-Regular SDF.asset
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Fonts\FuenteGuapa-Regular SDF.asset.meta
-    fullPath: C:\Users\jaume\Desktop\Zombie-Survivor\Assets\Fonts\FuenteGuapa-Regular
-      SDF.asset.meta
-    projectPath: Assets\Fonts\FuenteGuapa-Regular SDF.asset.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Fonts\IMFellEnglishSC-Regular.ttf
-    fullPath: C:\Users\jaume\Desktop\Zombie-Survivor\Assets\Fonts\IMFellEnglishSC-Regular.ttf
-    projectPath: Assets\Fonts\IMFellEnglishSC-Regular.ttf
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Fonts\IMFellEnglishSC-Regular.ttf.meta
-    fullPath: C:\Users\jaume\Desktop\Zombie-Survivor\Assets\Fonts\IMFellEnglishSC-Regular.ttf.meta
-    projectPath: Assets\Fonts\IMFellEnglishSC-Regular.ttf.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Assets\Resources\Survivor.prefab
     fullPath: C:\Users\jaume\Desktop\Zombie-Survivor\Assets\Resources\Survivor.prefab
     projectPath: Assets\Resources\Survivor.prefab
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Assets\Scenes\Cargando.unity
-    fullPath: C:\Users\jaume\Desktop\Zombie-Survivor\Assets\Scenes\Cargando.unity
-    projectPath: Assets\Scenes\Cargando.unity
+  - path: Assets\Scripts\SpawnEnemy.cs
+    fullPath: C:\Users\jaume\Desktop\Zombie-Survivor\Assets\Scripts\SpawnEnemy.cs
+    projectPath: Assets\Scripts\SpawnEnemy.cs
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Assets\Scenes\Lobby.unity
-    fullPath: C:\Users\jaume\Desktop\Zombie-Survivor\Assets\Scenes\Lobby.unity
-    projectPath: Assets\Scenes\Lobby.unity
+  - path: Library\Artifacts\ee\eeaded64e57e0214b8dd7eeeebf61058
+    fullPath: C:\Users\jaume\Desktop\Zombie-Survivor\Library\Artifacts\ee\eeaded64e57e0214b8dd7eeeebf61058
+    projectPath: Library\Artifacts\ee\eeaded64e57e0214b8dd7eeeebf61058
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\f3\f3199f2cee12aeb94badd132f655caf2
+    fullPath: C:\Users\jaume\Desktop\Zombie-Survivor\Library\Artifacts\f3\f3199f2cee12aeb94badd132f655caf2
+    projectPath: Library\Artifacts\f3\f3199f2cee12aeb94badd132f655caf2
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\BuildPlayerData\Editor\TypeDb-All.json
+    fullPath: C:\Users\jaume\Desktop\Zombie-Survivor\Library\BuildPlayerData\Editor\TypeDb-All.json
+    projectPath: Library\BuildPlayerData\Editor\TypeDb-All.json
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Assets\Scenes\Login.unity
-    fullPath: C:\Users\jaume\Desktop\Zombie-Survivor\Assets\Scenes\Login.unity
-    projectPath: Assets\Scenes\Login.unity
+  - path: Library\BuildPlayerData\Player\TypeDb-All.json
+    fullPath: C:\Users\jaume\Desktop\Zombie-Survivor\Library\BuildPlayerData\Player\TypeDb-All.json
+    projectPath: Library\BuildPlayerData\Player\TypeDb-All.json
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Assets\Scenes\SampleScene.unity
-    fullPath: C:\Users\jaume\Desktop\Zombie-Survivor\Assets\Scenes\SampleScene.unity
-    projectPath: Assets\Scenes\SampleScene.unity
+  - path: Library\BuildPlayerData\response.rsp
+    fullPath: C:\Users\jaume\Desktop\Zombie-Survivor\Library\BuildPlayerData\response.rsp
+    projectPath: Library\BuildPlayerData\response.rsp
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Assets\Scripts\ComprarPuertas.cs
-    fullPath: C:\Users\jaume\Desktop\Zombie-Survivor\Assets\Scripts\ComprarPuertas.cs
-    projectPath: Assets\Scripts\ComprarPuertas.cs
+  - path: Library\CurrentLayout-default.dwlt
+    fullPath: C:\Users\jaume\Desktop\Zombie-Survivor\Library\CurrentLayout-default.dwlt
+    projectPath: Library\CurrentLayout-default.dwlt
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Assets\Scripts\Countdown.cs
-    fullPath: C:\Users\jaume\Desktop\Zombie-Survivor\Assets\Scripts\Countdown.cs
-    projectPath: Assets\Scripts\Countdown.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Scripts\DeclararSpawns.cs
-    fullPath: C:\Users\jaume\Desktop\Zombie-Survivor\Assets\Scripts\DeclararSpawns.cs
-    projectPath: Assets\Scripts\DeclararSpawns.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Scripts\Login.cs
-    fullPath: C:\Users\jaume\Desktop\Zombie-Survivor\Assets\Scripts\Login.cs
-    projectPath: Assets\Scripts\Login.cs
+  - path: Library\EditorUserBuildSettings.asset
+    fullPath: C:\Users\jaume\Desktop\Zombie-Survivor\Library\EditorUserBuildSettings.asset
+    projectPath: Library\EditorUserBuildSettings.asset
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: Library\gfu\cache\branches.yaml
     fullPath: C:\Users\jaume\Desktop\Zombie-Survivor\Library\gfu\cache\branches.yaml
     projectPath: Library\gfu\cache\branches.yaml
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\gfu\cache\gitlocks.yaml
+    fullPath: C:\Users\jaume\Desktop\Zombie-Survivor\Library\gfu\cache\gitlocks.yaml
+    projectPath: Library\gfu\cache\gitlocks.yaml
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -141,6 +121,12 @@ MonoBehaviour:
   - path: Library\gfu\cache\repoinfo.yaml
     fullPath: C:\Users\jaume\Desktop\Zombie-Survivor\Library\gfu\cache\repoinfo.yaml
     projectPath: Library\gfu\cache\repoinfo.yaml
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\LastBuild.buildreport
+    fullPath: C:\Users\jaume\Desktop\Zombie-Survivor\Library\LastBuild.buildreport
+    projectPath: Library\LastBuild.buildreport
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
